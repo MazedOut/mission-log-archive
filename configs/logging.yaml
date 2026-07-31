@@ -1,0 +1,7 @@
+version: 1
+handlers:
+  console:
+    level: DEBUG
+  file:
+    level: INFO
+    path: /var/log/mla/ingest.log
